@@ -1,0 +1,39 @@
+name: Daily Evia News Scrape
+
+on:
+  schedule:
+    # 06:00 שעון ישראל = 03:00 UTC (קיץ) / 04:00 UTC (חורף)
+    # GitHub Actions לא תומך timezone — נשתמש ב-03:00 UTC, מתאים לקיץ
+    - cron: '0 3 * * *'
+  workflow_dispatch: {}   # מאפשר הפעלה ידנית מ-Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run scraper
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scrape.js
+
+      - name: Commit and push digest
+        run: |
+          git config user.name "Evia News Bot"
+          git config user.email "actions@github.com"
+          git add docs/data/
+          git diff --staged --quiet || git commit -m "📰 Daily digest $(date +'%Y-%m-%d')"
+          git push

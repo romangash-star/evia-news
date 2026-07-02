@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>חדשות אוויה</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "Segoe UI", Arial, sans-serif; background: #0a1628; color: #dde6f0; min-height: 100vh; direction: rtl; }
+
+nav { background: #111f35; border-bottom: 1px solid #1e3050; height: 54px; padding: 0 18px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
+.brand { display: flex; align-items: center; gap: 9px; font-size: 16px; font-weight: 700; color: #fff; }
+
+.ai-banner { background: #1a1200; border-bottom: 1px solid #3a2800; padding: 7px 18px; text-align: center; font-size: 12px; color: #c8a440; }
+
+.hero { background: linear-gradient(160deg,#0d2040 0%,#0a1628 60%); border-bottom: 1px solid #1e3050; padding: 24px 18px 18px; text-align: center; }
+.hero h1 { font-size: 20px; font-weight: 700; color: #fff; margin-bottom: 5px; }
+.hero .sub { font-size: 12px; color: #6a8ba5; margin-bottom: 11px; }
+.source-pills { display: flex; gap: 6px; flex-wrap: wrap; justify-content: center; }
+.source-pills a { font-size: 11px; padding: 3px 10px; border-radius: 20px; border: 1px solid #1e3050; color: #6a8ba5; text-decoration: none; }
+.source-pills a:hover { background: #162540; color: #dde6f0; }
+
+button { background: #2272cc; color: #fff; border: none; border-radius: 8px; padding: 8px 16px; font-size: 13px; font-family: inherit; font-weight: 600; cursor: pointer; transition: opacity .15s; }
+button:hover:not(:disabled) { opacity: .85; }
+button:disabled { opacity: .4; cursor: not-allowed; }
+
+main { max-width: 740px; margin: 0 auto; padding: 18px 16px 20px; }
+
+.meta-bar { font-size: 12px; color: #6a8ba5; margin-bottom: 20px; padding-bottom: 12px; border-bottom: 1px solid #1e3050; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.meta-bar strong { color: #aac4dc; }
+.meta-dot { color: #1e3050; }
+
+.section { margin-bottom: 26px; }
+.section-label { font-size: 10px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: #4a7a9a; margin-bottom: 10px; }
+
+.card { background: #111f35; border: 1px solid #1e3050; border-radius: 12px; overflow: hidden; margin-bottom: 12px; border-right: 4px solid #4a6a8a; transition: box-shadow .2s; }
+.card:hover { box-shadow: 0 4px 18px rgba(0,0,0,.35); }
+.card.urgent      { border-right-color: #c94f4f; }
+.card.infra       { border-right-color: #d4882a; }
+.card.environment { border-right-color: #2a9e8e; }
+.card.crime       { border-right-color: #9e5a2a; }
+.card.economy     { border-right-color: #6050c0; }
+.card.tourism     { border-right-color: #2a9e5e; }
+.card.politics    { border-right-color: #7a5ab4; }
+
+.card-img { width: 100%; max-height: 200px; object-fit: cover; display: block; }
+.card-body { padding: 13px 15px; }
+.card-meta { display: flex; gap: 8px; margin-bottom: 7px; align-items: center; flex-wrap: wrap; }
+.badge { font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 20px; }
+.card-date   { font-size: 10px; color: #6a8ba5; }
+.card-source { font-size: 10px; color: #4a6a8a; }
+.card-title  { font-size: 14.5px; font-weight: 700; color: #eef2f8; line-height: 1.4; margin-bottom: 7px; }
+.card-text   { font-size: 13px; color: #8aaccc; line-height: 1.75; margin-bottom: 9px; }
+.locations   { display: flex; gap: 5px; flex-wrap: wrap; margin-bottom: 9px; }
+.loc-tag     { font-size: 11px; background: #162540; border: 1px solid #1e3050; border-radius: 20px; padding: 2px 9px; color: #7a9ab4; }
+.card-link   { font-size: 11.5px; color: #2272cc; text-decoration: none; }
+.card-link:hover { text-decoration: underline; }
+
+.disclaimer { background: #111f35; border: 1px solid #1e3050; border-radius: 12px; padding: 14px 18px; margin-top: 22px; font-size: 11.5px; color: #6a8ba5; line-height: 1.75; display: flex; gap: 12px; align-items: flex-start; }
+.disclaimer a { color: #2272cc; text-decoration: none; }
+
+.nerotrivia { display: flex; align-items: center; gap: 14px; background: linear-gradient(135deg,#0d2a1a,#0a1f28); border: 1px solid #1a4a2a; border-radius: 12px; padding: 17px 18px; margin-top: 15px; text-decoration: none; transition: border-color .2s; }
+.nerotrivia:hover { border-color: #2a7a4a; }
+.nt-title { font-size: 14px; font-weight: 700; color: #7adba0; margin-bottom: 3px; }
+.nt-sub   { font-size: 12px; color: #5a8a6a; line-height: 1.5; }
+
+.site-footer { text-align: center; font-size: 11px; color: #3a5a74; margin-top: 28px; padding-top: 16px; border-top: 1px solid #1a2d3f; line-height: 1.9; }
+.site-footer a { color: #2272cc; text-decoration: none; }
+
+.state-box { background: #111f35; border: 1px solid #1e3050; border-radius: 14px; min-height: 220px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; text-align: center; padding: 32px; color: #4a6a8a; }
+.state-box .icon { font-size: 44px; opacity: .28; }
+.error-box { background: #2a1515; border-color: #5a2020; color: #e08080; }
+.spinner { width: 36px; height: 36px; border: 3px solid #1e3050; border-top-color: #2272cc; border-radius: 50%; animation: spin .75s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.nl-box { background: linear-gradient(135deg, #0d1f3a, #111f35); border: 1px solid #2272cc44; border-radius: 14px; padding: 20px 22px; margin-top: 18px; }
+.nl-box h3 { font-size: 15px; font-weight: 700; color: #fff; margin-bottom: 4px; }
+.nl-box p  { font-size: 12px; color: #6a8ba5; margin-bottom: 14px; line-height: 1.6; }
+.nl-row    { display: flex; gap: 8px; flex-wrap: wrap; }
+.nl-input  { flex: 1; min-width: 180px; background: #0a1628; border: 1px solid #1e3050; border-radius: 8px; padding: 9px 13px; font-size: 13px; color: #dde6f0; font-family: inherit; outline: none; }
+.nl-input:focus { border-color: #2272cc; }
+.nl-freq { background: #0a1628; border: 1px solid #1e3050; border-radius: 8px; padding: 9px 13px; font-size: 13px; color: #dde6f0; font-family: inherit; cursor: pointer; outline: none; }
+.nl-btn { padding: 9px 18px; font-size: 13px; white-space: nowrap; }
+.nl-msg { margin-top: 10px; font-size: 12px; padding: 8px 12px; border-radius: 8px; }
+.nl-msg.ok  { background: #0d2a1a; border: 1px solid #1a4a2a; color: #7adba0; }
+.nl-msg.err { background: #2a1515; border: 1px solid #5a2020; color: #e08080; }
+.nl-asleep  { font-size: 11px; color: #4a6a8a; margin-top: 8px; }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="brand"><span style="font-size:22px">🇬🇷</span> חדשות אוויה</div>
+  <button id="btn" onclick="load()">🔄 רענן</button>
+</nav>
+
+<div class="ai-banner">
+  ⚠️ <strong>תוכן זה מופק אוטומטית על ידי AI ועשוי לכלול טעויות תרגום</strong>
+  — לפרטים מדויקים לחצו "קרא את הכתבה המקורית"
+</div>
+
+<div class="hero">
+  <h1>📰 חדשות אי אוויה בעברית</h1>
+  <div class="sub">סיכום יומי אוטומטי · 5 אתרי חדשות · מתורגם בעזרת AI · מתעדכן כל יום ב-06:00</div>
+  <div class="source-pills">
+    <a href="https://www.evima.gr" target="_blank" rel="noopener">evima.gr</a>
+    <a href="https://www.eviazoom.gr" target="_blank" rel="noopener">eviazoom.gr</a>
+    <a href="https://eviathema.gr" target="_blank" rel="noopener">eviathema.gr</a>
+    <a href="https://evianews.com" target="_blank" rel="noopener">evianews.com</a>
+    <a href="https://www.egnomi.gr" target="_blank" rel="noopener">egnomi.gr</a>
+  </div>
+</div>
+
+<main id="main">
+  <div class="state-box">
+    <div class="icon">🏝️</div>
+    <div>טוען...</div>
+  </div>
+</main>
+
+<script>
+// ── הגדרה: כתובת שירות ההרשמה (Render) ─────────────────────
+// עדכן את זה לכתובת השירות שלך אחרי פריסה ל-Render
+const SIGNUP_API = "https://evia-news-signup.onrender.com";
+
+const CAT_COLORS = {
+  urgent:"#c94f4f", infra:"#d4882a", environment:"#2a9e8e",
+  crime:"#9e5a2a", economy:"#6050c0", tourism:"#2a9e5e",
+  politics:"#7a5ab4", other:"#4a6a8a"
+};
+
+function esc(s) {
+  return String(s||"")
+    .replace(/&/g,"&amp;").replace(/</g,"&lt;")
+    .replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+}
+
+function cardHTML(item, type) {
+  const color = CAT_COLORS[type] || "#4a6a8a";
+  const badgeStyle = `color:${color};background:${color}22`;
+  const imgHTML = item.image
+    ? `<img class="card-img" src="${esc(item.image)}" alt="" loading="lazy" onerror="this.style.display='none'">`
+    : "";
+  const locHTML = (item.locations||[]).length
+    ? `<div class="locations">${item.locations.map(l=>`<span class="loc-tag">📍 ${esc(l)}</span>`).join("")}</div>`
+    : "";
+  const dateStr = item.date ? (item.date.length > 16 ? item.date.slice(0,16) : item.date) : "";
+
+  return `
+    <div class="card ${esc(type||"other")}">
+      ${imgHTML}
+      <div class="card-body">
+        <div class="card-meta">
+          <span class="badge" style="${badgeStyle}">${esc(item.label||"")}</span>
+          ${dateStr ? `<span class="card-date">📅 ${esc(dateStr)}</span>` : ""}
+          <span class="card-source">📰 ${esc(item.source||"")}</span>
+        </div>
+        <div class="card-title">${esc(item.title)}</div>
+        <div class="card-text">${esc(item.body)}</div>
+        ${locHTML}
+        ${item.url ? `<a class="card-link" href="${esc(item.url)}" target="_blank" rel="noopener">קרא את הכתבה המקורית ←</a>` : ""}
+      </div>
+    </div>`;
+}
+
+function renderDigest(d) {
+  const sections = d.sections || [];
+  const sources  = (d.sourcesList||[]).join(" · ");
+  let html = `
+    <div class="meta-bar">
+      <strong>עודכן: ${esc(d.generatedAt||"")}</strong>
+      <span class="meta-dot">·</span>
+      <span>${d.totalItems||0} כתבות</span>
+      <span class="meta-dot">·</span>
+      <span>${esc(sources)}</span>
+    </div>`;
+
+  for (const sec of sections) {
+    if (!sec.items?.length) continue;
+    html += `<div class="section"><div class="section-label">${esc(sec.label)}</div>`;
+    for (const item of sec.items) html += cardHTML(item, sec.type);
+    html += `</div>`;
+  }
+
+  html += `
+    <div class="disclaimer">
+      <span style="font-size:18px;opacity:.5;flex-shrink:0">🤖</span>
+      <div>
+        <strong style="color:#c8a440">שימו לב — תוכן AI:</strong>
+        סיכום זה נוצר אוטומטית על-ידי בינה מלאכותית (Claude / Anthropic)
+        ועשוי לכלול <strong>טעויות תרגום או אי-דיוקים</strong>.
+        לפרטים מדויקים, לחצו <strong>קרא את הכתבה המקורית</strong> בכל כתבה.
+        מקורות: evima.gr · eviazoom.gr · eviathema.gr · evianews.com · egnomi.gr
+      </div>
+    </div>
+    <a class="nerotrivia" href="https://nerotrivia.com/" target="_blank" rel="noopener">
+      <span style="font-size:30px;flex-shrink:0">🏡</span>
+      <div style="flex:1">
+        <div class="nt-title">יש לנו דירה בכפר Nerotrivia באי אוויה</div>
+        <div class="nt-sub">מחפשים מקום לנפוש באי? הדירה שלנו בנרוטריביה זמינה להשכרה — כל הפרטים באתר</div>
+      </div>
+      <span style="font-size:18px;color:#3a6a4a;flex-shrink:0">←</span>
+    </a>
+
+    <div class="nl-box">
+      <h3>📬 קבל את חדשות אוויה ישירות למייל</h3>
+      <p>הרשם לניוזלטר אוטומטי עם תרגום ותקציר החדשות לפי לוח זמנים שתבחר</p>
+      <div class="nl-row">
+        <input class="nl-input" id="nl-email" type="email" placeholder="כתובת מייל שלך" dir="ltr">
+        <select class="nl-freq" id="nl-freq">
+          <option value="daily">📅 יומי (כל יום 06:00)</option>
+          <option value="weekly">📆 שבועי (ראשון בבוקר)</option>
+          <option value="immediate">⚡ מיידי (עם כל עדכון)</option>
+        </select>
+        <button class="nl-btn" id="nl-btn" onclick="subscribe()">הרשמה</button>
+      </div>
+      <div id="nl-msg" style="display:none"></div>
+      <div class="nl-asleep">💤 שירות ההרשמה רץ בחינם — אם זו הפעם הראשונה היום, ההרשמה עשויה לקחת עד 30 שניות</div>
+    </div>
+
+    <div class="site-footer">
+      נבנה על ידי <strong>רומן גרינשטיין</strong> ·
+      <a href="mailto:romangash@gmail.com">romangash@gmail.com</a> · להערות ופניות
+      <br>חדשות אוויה · AI digest · evima.gr ועוד
+    </div>`;
+
+  document.getElementById("main").innerHTML = html;
+}
+
+function showError(msg) {
+  document.getElementById("main").innerHTML =
+    `<div class="state-box error-box"><div>❌ ${esc(msg)}</div></div>`;
+}
+
+async function load() {
+  const btn = document.getElementById("btn");
+  btn.disabled = true; btn.textContent = "⏳";
+  document.getElementById("main").innerHTML =
+    `<div class="state-box"><div class="spinner"></div><div>טוען...</div></div>`;
+
+  try {
+    // נתיב יחסי — עובד גם תחת GitHub Pages subpath
+    const res = await fetch("data/digest.json", { cache: "no-store" });
+    if (!res.ok) throw new Error("הסיכום עדיין לא נוצר. ההרצה הראשונה תתבצע אוטומטית.");
+    renderDigest(await res.json());
+  } catch(e) {
+    showError(e.message);
+  } finally {
+    btn.disabled = false; btn.textContent = "🔄 רענן";
+  }
+}
+
+async function subscribe() {
+  const email = document.getElementById("nl-email").value.trim();
+  const freq  = document.getElementById("nl-freq").value;
+  const btn   = document.getElementById("nl-btn");
+  const msg   = document.getElementById("nl-msg");
+
+  if (!email || !email.includes("@")) {
+    msg.className = "nl-msg err"; msg.textContent = "נא להזין כתובת מייל תקינה.";
+    msg.style.display = "block"; return;
+  }
+
+  btn.disabled = true; btn.textContent = "⏳";
+  msg.style.display = "none";
+
+  try {
+    const res  = await fetch(`${SIGNUP_API}/api/subscribe`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email, frequency: freq }),
+    });
+    const data = await res.json();
+    msg.className = res.ok ? "nl-msg ok" : "nl-msg err";
+    msg.textContent = data.message || (res.ok ? "נרשמת בהצלחה!" : "שגיאה בהרשמה");
+    msg.style.display = "block";
+    if (res.ok) document.getElementById("nl-email").value = "";
+  } catch(e) {
+    msg.className = "nl-msg err";
+    msg.textContent = "שירות ההרשמה לא זמין כרגע (יתכן שמתעורר — נסה שוב בעוד 30 שניות).";
+    msg.style.display = "block";
+  } finally {
+    btn.disabled = false; btn.textContent = "הרשמה";
+  }
+}
+
+load();
+</script>
+</body>
+</html>

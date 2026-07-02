@@ -1,0 +1,13 @@
+{
+  "name": "evia-news-scraper",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "scrape": "node scrape.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.52.0",
+    "axios": "^1.7.0",
+    "cheerio": "^1.0.0"
+  }
+}
