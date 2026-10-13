@@ -1,0 +1,300 @@
+{
+  "generatedAt": "13.10.2026, 10:06:03",
+  "isoDate": "2026-10-13T10:06:03.755Z",
+  "totalItems": 17,
+  "sourcesList": [
+    "evima.gr",
+    "eviazoom.gr",
+    "eviathema.gr",
+    "evianews.com",
+    "egnomi.gr"
+  ],
+  "sections": [
+    {
+      "type": "urgent",
+      "label": "⚠️ מזהירות מזג אויר",
+      "items": [
+        {
+          "cat": "urgent",
+          "label": "⚠️ מזהירות מזג אויר",
+          "title": "מזג אויר מסוכן באי אוביה ביוונן",
+          "body": "אזהרת מזג אויר קריטית לאי אוביה וליוונן ביום שלישי 13 באוקטובר וביום רביעי 14 באוקטובר. מטאורולוגים מזהירים מגשמים כבדים ובסיכון גבוה להצפות במיוחד בצפון ומרכז אוביה והאיים ספורדים. גובה הגשם צפוי להגיע ל-100-150 מילימטרים ב-48 שעות בחלק מהאזורים, בעוד שבחלקידה הגשם הממוצע בחודש אוקטובר בדרך כלל מסתכם לכ-60 מילימטרים.",
+          "locations": [
+            "אוביה",
+            "צפון אוביה",
+            "מרכז אוביה",
+            "חלקידה",
+            "ספורדים"
+          ],
+          "date": "2026-10-13 10:00",
+          "source": "evima.gr",
+          "url": "https://www.evima.gr/eidiseis-evvoia/xekinaei-i-epikindyni-kakokairia-stin-evvoia-poies-perioches-chreiazontai-prosochi/",
+          "image": "https://www.evima.gr/wp-content/uploads/2025/12/kakokairia-e1764928353152.jpeg"
+        },
+        {
+          "cat": "urgent",
+          "label": "🚨 חירום מזג אוויר",
+          "title": "אביה: סערה קשה מגיעה, בתי ספר נסגרים",
+          "body": "אזהרה באי אביה ביוון להסתערות מזג אוויר חמורה החל מערב שלישי 13 באוקטובר. הטמפט יהיה בשיאו בלילה וצהריי יום רביעי, כשגשמים עתירים צפויים להגיע ל-150 מ״מ בחלקים המזרחיים. מספר הטלימיתות בחטיבות בינוניות וגבוהות בריישהי",
+          "locations": [
+            "Evia",
+            "Eastern Evia",
+            "Greece"
+          ],
+          "date": "2026-10-13 04:29",
+          "source": "evianews.com",
+          "url": "https://evianews.com/evvoia-erchetai-megali-kakokairia-kleinoun-scholeia/",
+          "image": "https://evianews.com/wp-content/uploads/2021/04/kakokairia.webp"
+        }
+      ]
+    },
+    {
+      "type": "environment",
+      "label": "🌧️ מזג אוויר",
+      "items": [
+        {
+          "cat": "environment",
+          "label": "🌧️ מזג אוויר",
+          "title": "סגירת בתי ספר באיביה בגלל סערה קשה",
+          "body": "בתי ספר בדימוס מנטודיו-לימנה-אגיא אנה באיביה יסגרו ביום רביעי בגלל סערה כבדה צפויה. הלימודים יתקיימו בטלקחינוך בגלל גשמים כבדים וביוממה של שלישי לרביעי. משרד מזג האוויר הלאומי חוזה צפיפות גשם של עד 150 מילימטרים בחלקים מזרחיים, מה שעלול לגרום להצפות.",
+          "locations": [
+            "איביה",
+            "מנטודיו-לימנה-אגיא אנה"
+          ],
+          "date": "2026-10-13 06:00",
+          "source": "evima.gr",
+          "url": "https://www.evima.gr/eidiseis-evvoia/kleinoun-scholeia-stin-evvoia-logo-tis-kakokairias/",
+          "image": "https://www.evima.gr/wp-content/uploads/2021/03/scholeia-e1680176874362.jpg"
+        },
+        {
+          "cat": "environment",
+          "label": "🌪️ מזג אוויר",
+          "title": "תנוחת סערה חדשה באי יוביה ביום שלישי",
+          "body": "שירות המטאורולוגיה היווני הזהיר מהידרדרות מזג האוויר ביום שלישי וד' באוקטובר בעיר יוביה. צפויות גשמים כבדים וסערות, בעיקר בשטחים ימיים וחופיים, עם אפשרות ברדים מקומיים. כמו כן צפויים רוחות צפוניות-מזרחיות עזות מאוד בימי הבוקר. אזורים מעניין כוללים את איים יוניים, צפון חלקידיקה ועוד.",
+          "locations": [
+            "יוביה",
+            "איים יוניים",
+            "חלקידיקה",
+            "סטריאה מערבית",
+            "פלופונסוס מערבי"
+          ],
+          "date": "2026-10-13 05:00",
+          "source": "evima.gr",
+          "url": "https://www.evima.gr/eidiseis-evvoia/nea-kakokairia-apo-simera-stin-evvoia-ti-ora-tha-chtypisoun-ta-entona-kairika-fainomena/",
+          "image": "https://www.evima.gr/wp-content/uploads/2023/11/kataigida.jpg"
+        },
+        {
+          "cat": "environment",
+          "label": "🌧️ מזג אוויר",
+          "title": "אזעקה באיביה: אמצעים חירום לסערה קרובה",
+          "body": "שירותי החירום בפריפריית מרכז יוון הוכנו למצב ישיר לקראת ה악זת מזג אוויר הצפויה ביום שלישי 13 ובחד 14 באוקטובר. המשרד המטאורולוגי הלאומי הוציא התראה כתומה המזהירה מגשמים קשים, סערות ובועות זן באזור ים איגאון. באי איביה בעיקר צפויים תופעות אקסטרימיות באורך ובעוצמה משמעותית, עם אפשרות של ברד מקומי.",
+          "locations": [
+            "Evia",
+            "Sporades",
+            "Thessaly",
+            "Magnesia"
+          ],
+          "date": "2026-10-12 17:20",
+          "source": "evima.gr",
+          "url": "https://www.evima.gr/eidiseis-evvoia/synagermos-gia-tin-evvoia-anakoinothikan-ektakta-metra-gia-tin-kakokairia/",
+          "image": "https://www.evima.gr/wp-content/uploads/2024/09/vroxi-1.jpeg"
+        }
+      ]
+    },
+    {
+      "type": "crime",
+      "label": "🚨 פשע",
+      "items": [
+        {
+          "cat": "crime",
+          "label": "🚨 פשע",
+          "title": "שוד קולנועי בחנות תכשיטים באיים היווניים",
+          "body": "בשעות הבוקר של יום שני, 12 באוקטובר, חמישה אנשים תקפו את חנות התכשיטים רמפו בחלקידה, באי אוביה. הפורצים הגיעו בניסן טויוטה קורולה - ארבעה יצאו מהרכב בעוד שחמישה נשאר כנהג. הנהג ביצע ניידות אחורה בעוקץ וחזר אל חזית החנות מספר פעמים עד שהחלון שובר והם הצליחו לפתוח דרך פנימה. הרשויות בודקות סרטוני אבטחה ואוספות עדויות כדי לזהות את החשודים.",
+          "locations": [
+            "חלקידה",
+            "אוביה",
+            "יוון"
+          ],
+          "date": "2026-10-13 08:40",
+          "source": "evima.gr",
+          "url": "https://www.evima.gr/eidiseis-evvoia/aftoi-einai-oi-drastes-pou-boukaran-se-chrysochoeio-stin-evvoia/",
+          "image": "https://www.evima.gr/wp-content/uploads/2026/10/kosmima.jpeg"
+        },
+        {
+          "cat": "crime",
+          "label": "🚔 פשע וביטחון",
+          "title": "חקירות משטרה בכתבי האישום בעיר",
+          "body": "הרשויות חשפו תוכנית פלילית מתוכננת הממוקדת בנוקשות בקשישים. במקביל, הוקמה כוננות נגד ארגון פשע מאורגן בעוסק בהברחת דלק בעיירות הכולל את אי הציקלאדים. כוחות משטרה של הרקליון חוקרים מקרה של אלימות במשפחה כלפי אישה בת 47 שנים מאירלנד. בעוד זאת, מעצרים היו בחסות דיון בפשעים כלכליים וביצוע פעולות אלימות בעיר.",
+          "locations": [
+            "אי הציקלאדים",
+            "הרקליון",
+            "מנידי"
+          ],
+          "date": "",
+          "source": "eviathema.gr",
+          "url": "https://eviathema.gr/astynomika/",
+          "image": "https://eviathema.gr/wp-content/uploads/2024/04/eviathema.jpg"
+        },
+        {
+          "cat": "crime",
+          "label": "🚨 פשע",
+          "title": "שוד אלים בחנות תכשיטים בחלקידה",
+          "body": "בשעות הבוקר המוקדמות בחלקידה, חמישה גברים ביצעו שוד אלים בחנות תכשיטים הממוקמת בשדרת הולכי הרגל. הגנבים הגיעו ברכב, ופרצו לחנות על ידי נסיעה לאחור לתוך חלון הראווה בסביבות השעה 5:30 בבוקר. האירוע הקים פחד בשכונה והוביל להתרעה ביטחונית, שחודרה תושבים המוקצים שנעוררו מהרעם הרם.",
+          "locations": [
+            "Χαλκίδα (חלקידה)",
+            "Evia (אביה)"
+          ],
+          "date": "2026-10-12 15:35",
+          "source": "evianews.com",
+          "url": "https://evianews.com/chalkida-tromaktikos-thoryvos-tous-xypnise-kai-vgikan-sta-balkonia/",
+          "image": "https://evianews.com/wp-content/uploads/2025/07/astynomia.webp"
+        }
+      ]
+    },
+    {
+      "type": "economy",
+      "label": "💰 כלכלה",
+      "items": [
+        {
+          "cat": "economy",
+          "label": "💰 כלכלה",
+          "title": "כרטיסי קניות מזון עד 1,426 יורו לזכאים בהכנסה מינימלית",
+          "body": "יוון משיקה תוכנית סיוע חדשה הכוללת כרטיסי קניות לתροφים וסחורות בסיסיות לכ-116,000 זכאים להכנסה מינימלית מובטחת. ההטלה הראשונה צפויה בסוף נובמבר, כאשר סכום של שישה חודשים יועלה לכרטיס בבת אחת במקום תשלומים חודשיים. התוכנית מחזירה סיוע זן בנימוס מחודש לאחר הפסקת התוכנית הקודמת במרץ 2024, ויש בה הוראה לתשלום היזום למשכנתאות זכאיות מאז מרץ 2024.",
+          "locations": [
+            "Evia",
+            "Greece"
+          ],
+          "date": "2026-10-13 09:40",
+          "source": "evima.gr",
+          "url": "https://www.evima.gr/oikonomia/market-pass-erchontai-vouchers-trofimon-eos-1-426-evro-pote-plironontai-kai-poioi-ta-dikaiountai/",
+          "image": "https://www.evima.gr/wp-content/uploads/2023/12/marketpass-e1676895461279-1.jpg"
+        },
+        {
+          "cat": "economy",
+          "label": "💼 כלכלה",
+          "title": "טכנולוגיה משנה את העסקים והחיים באיביה",
+          "body": "הטכנולוגיה משנה במהירות את פני ההשקעות והעסקים באיביה. פתיחת חשבון בנק, הזמנות או רישום בפלטפורמות ציבוריות יכולים להיעשות כעת בדקות ספורות. שיווק דיגיטלי מתפתח בקצב מהיר, כשהשפעות מדיה סוציאלית פשוטות כבר אינן מספיקות להנעת מכירות. האקלים הכלכלי בעיר בתחילת 2026 מעורב, עם נתונים שליליים וחיוביים זה לצד זה.",
+          "locations": [
+            "Evia",
+            "אביה"
+          ],
+          "date": "",
+          "source": "eviathema.gr",
+          "url": "https://eviathema.gr/technologia/",
+          "image": "https://eviathema.gr/wp-content/uploads/2024/04/eviathema.jpg"
+        }
+      ]
+    },
+    {
+      "type": "politics",
+      "label": "🚗 תחבורה וחוקים",
+      "items": [
+        {
+          "cat": "politics",
+          "label": "🚗 תחבורה וחוקים",
+          "title": "קוד תחבורה חדש בישראל עם עיצום קנסות",
+          "body": "בעיר אביה ביוון פורסמו חדשות בנושא הקוד החדש של תחבורה בכביש. הממשלה הקובעת מתכנסת בהכנות לעיצום בקנסות על הפרות כמו שימוש בטלפון נייד וקיצוניות בנהיגה. ההצבעה בפרלמנט העברה קוד זה בהצבעה רחבה, כדי להחמיר את הענישה על נהגים בעבירות כביש.",
+          "locations": [
+            "Evia"
+          ],
+          "date": "",
+          "source": "eviathema.gr",
+          "url": "https://eviathema.gr/auto-moto/",
+          "image": "https://eviathema.gr/wp-content/uploads/2024/04/eviathema.jpg"
+        },
+        {
+          "cat": "politics",
+          "label": "🗳️ פוליטיקה",
+          "title": "ראיונות עם מועמדים בבחירות באי אֵביה",
+          "body": "פרסומת סדרה של ראיונות עם מועמדים לתפקידים ציבוריים בחקלאות ובממשל המקומי באי אֵביה. בין המועמדים: קוסטס מרקופולוס, מועמד לנציג אזור סטריאה; לאוטרים רביולוס, δήμαρχος של קריסטו; ומילטוס חצנג'יאנקיס, מועמד של SYRIZA לפרלמנט. גם סπירוס פנומטיקוס מ-Nea Demokratia וסימוס קדיקוג'לו, סגן שר הפיתוח חקלאי, הדלו ראיונות.",
+          "locations": [
+            "Evia",
+            "Karystos",
+            "Thessaly"
+          ],
+          "date": "",
+          "source": "eviathema.gr",
+          "url": "https://eviathema.gr/synenteyxeis/",
+          "image": "https://eviathema.gr/wp-content/uploads/2024/04/eviathema.jpg"
+        }
+      ]
+    },
+    {
+      "type": "other",
+      "label": "📰 אחרות",
+      "items": [
+        {
+          "cat": "other",
+          "label": "📰 אחרות",
+          "title": "כלי RSS לקטגוריית חדשות מאי Evia",
+          "body": "מאמר זה מכיל קישור RSS לקטגוריית חדשות מהאתר eviathema.gr העוסק באי אוביה ביוון. לא התקבלו פרטים구체적ים או תוכן בגוף המאמר. מדובר כנראה בעדכון טכני של מערכת הפצת החדשות של האתר המקומי.",
+          "locations": [
+            "Evia",
+            "Greece"
+          ],
+          "date": "",
+          "source": "eviathema.gr",
+          "url": "https://eviathema.gr/evoia/feed/",
+          "image": ""
+        },
+        {
+          "cat": "other",
+          "label": "🗞️ חדשות מקומיות",
+          "title": "כל החדשות היומיות מאי האי אביה ביוון",
+          "body": "פורטל EviaNews מציע כיסוי יומי של כל החדשות החשובות מאי אביה ברחבי אזור מרכז יוון. הפורטל מעדכן קוראים בזמן אמת על האירועים המשמעותיים והחדשויות המקומיות. קוראי האתר יכולים להיות בקדמת המידע על כל המתרחש באי.",
+          "locations": [
+            "אביה",
+            "יוון"
+          ],
+          "date": "2026-10-13 09:58",
+          "source": "evianews.com",
+          "url": "https://evianews.com/%ce%bf%ce%bb%ce%b5%cf%83-%ce%bf%ce%b9-%ce%b5%ce%b9%ce%b4%ce%b7%cf%83%ce%b5%ce%b9%cf%83/",
+          "image": "https://evianews.com/evianews_og_yellow.webp"
+        },
+        {
+          "cat": "other",
+          "label": "🏝️ חדשות מקומיות",
+          "title": "כל החדשות מצפון אוביה במקום אחד",
+          "body": "הערוץ evianews.com מציע סיכום מלא של כל החדשות והעדכונים מאזור צפון אוביה ביוון. בקטגוריה זו תוכלו למצוא את כל הכתבות החשובות מהאזור בלחיצת כפתור אחת. המקור מתעדכן בעדכוני חדשות ומידע על האירועים המקומיים בצפון אוביה.",
+          "locations": [
+            "צפון אוביה",
+            "אוביה"
+          ],
+          "date": "2026-10-13 07:29",
+          "source": "evianews.com",
+          "url": "https://evianews.com/news/voria-evia/",
+          "image": "https://evianews.com/evianews_og_yellow.webp"
+        },
+        {
+          "cat": "other",
+          "label": "🏝️ חדשות אזוריות",
+          "title": "דרומית אוביה - מרכז חדשות מקומי",
+          "body": "הערוץ evianews.com מציע כיסוי מקיף של כל האירועים והחדשות מאזור דרומית אוביה באי אוביה, יוון. הפלטפורמה מספקת עדכונים שוטפים על מצב האזור, אירועים מקומיים והתפתחויות חדשות. הקוראים יכולים לעקוב אחר החדשות החשובות מהאזור בדקה אחת בלבד.",
+          "locations": [
+            "דרומית אוביה",
+            "אוביה",
+            "יוון"
+          ],
+          "date": "2026-10-13 07:29",
+          "source": "evianews.com",
+          "url": "https://evianews.com/news/notia-evia/",
+          "image": "https://evianews.com/evianews_og_yellow.webp"
+        },
+        {
+          "cat": "other",
+          "label": "🕯️ כללי",
+          "title": "כפר באיביה קבר אבל על מות תושב אהוב",
+          "body": "הכפר אלמירופוטאמוס באי איביה בוונציה בעצב עמוק בעקבות הידיעה על פטירת אוונגלוס טוליאס בן 88, תושב כבוד של הקהילה. הקשישור עזב את העולם תוך התאבלות משפחתו וחבריו בכפר. הלוויתו קיימת אתמול בצהריים, וקהילת אלמירופוטאמוס שקועה בתחושת אובדן עמוק.",
+          "locations": [
+            "Almyropotamos",
+            "Evia"
+          ],
+          "date": "2026-10-12 04:28",
+          "source": "evianews.com",
+          "url": "https://evianews.com/ena-chorio-stin-evvoia-vythistike-sto-penthos/",
+          "image": "https://evianews.com/wp-content/uploads/2026/10/thrinos.jpg"
+        }
+      ]
+    }
+  ]
+}
