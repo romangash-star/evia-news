@@ -1,0 +1,315 @@
+{
+  "generatedAt": "14.10.2026, 8:23:25",
+  "isoDate": "2026-10-14T08:23:25.394Z",
+  "totalItems": 17,
+  "sourcesList": [
+    "evima.gr",
+    "eviazoom.gr",
+    "eviathema.gr",
+    "evianews.com",
+    "egnomi.gr"
+  ],
+  "sections": [
+    {
+      "type": "urgent",
+      "label": "🚨 חירום ומזג אוויר",
+      "items": [
+        {
+          "cat": "urgent",
+          "label": "🚨 חירום ומזג אוויר",
+          "title": "בתי ספר סגורים באיביה בשל תנאי מזג אוויר קיצוניים",
+          "body": "כל הרשויות המקומיות באי איביה החליטו להغיד בתי ספר היום (14 באוקטובר) למעט הרשות של איסטיאה-איתיפסו. שירות המטאורולוגיה הלאומי שדרג את התראת מזג האוויר לאזהרה על תופעות מזג אוויר מסוכנות. אזהרה אדומה (הרמה הגבוהה ביותר) הוצאה לאיביה עד שעות אחה\"צ מאוחרות. אזהרות כתומות (רמה שנייה) הוצאו לאזורים נוספים כולל חלקים מהפלופונזוס, סטריאה המזרחית ואיים בימי האגאים.",
+          "locations": [
+            "איביה",
+            "איסטיאה-איתיפסו",
+            "פלופונזוס",
+            "סטריאה המזרחית",
+            "איים בימי האגאים"
+          ],
+          "date": "2026-10-14 08:20",
+          "source": "evima.gr",
+          "url": "https://www.evima.gr/eidiseis-evvoia/kleista-scholeia-simera-stin-evvoia-deite-poia-2/",
+          "image": "https://www.evima.gr/wp-content/uploads/2023/01/3b2fbed1-d08d-4145-af59-dabb94313dfd.jpeg"
+        },
+        {
+          "cat": "urgent",
+          "label": "🚨 חירום",
+          "title": "התרעה באויביה: נהר בסכנת הצפה",
+          "body": "התרעה בעיר אויביה ביוון לאחר גשמים כבדים ומתמשכים. נהר מסאפיוס בעיר דירפיון-מסאפיון קרוב לעלייה על הגדות עקב עלייה משמעותית בגובה המים. הרשויות חוזרות על אזהרות לתושבים בשטחים הסמוכים לנהר בגלל סכנת הצפות. תושבים צופים בחוסר דאגה בהתפתחות המצב.",
+          "locations": [
+            "Evia",
+            "Dirfyon-Messapion",
+            "Messapios River"
+          ],
+          "date": "2026-10-14 08:15",
+          "source": "evima.gr",
+          "url": "https://www.evima.gr/eidiseis-evvoia/synagermos-stin-evvoia-etoimos-na-xecheilisei-megalos-potamos-deite-vinteo/",
+          "image": "https://www.evima.gr/wp-content/uploads/2026/10/img_0590.jpeg"
+        },
+        {
+          "cat": "urgent",
+          "label": "🚨 חירום ותכן מזג אוויר",
+          "title": "אזעקה בעיר 112: התרעה דחופה בנוקטיקא לאוביה",
+          "body": "איי אוביה מושפעת מתופעות מזג אוויר קשות, כאשר התופעות מתרכזות בעיקר בעיר פוליטיקה. בשעה 06:49 ביום 14 באוקטובר, קיבלו התושבים התרעה דחופה בטלפוניהם מהמערכת 112. משרד ההגנה האזרחית של יוון אזהר לגבי תופעות מזג אוויר אינטנסיביות והקריא לתושבים להקפיד על זהירות מרבית בתנועתם. המשרד סיפק גם קישור לוועדה המרכזית להגנה אזרחית עם הנחיות עצמיות לבטיחות במהלך תופעות קיצוניות.",
+          "locations": [
+            "Evia",
+            "Politika",
+            "Greece"
+          ],
+          "date": "2026-10-14 06:58",
+          "source": "eviathema.gr",
+          "url": "https://eviathema.gr/evoia/synagermos-stin-eyvoia-ixise-politika-kakokairia/",
+          "image": "https://eviathema.gr/wp-content/uploads/2026/10/kakokairia.jpg"
+        },
+        {
+          "cat": "urgent",
+          "label": "🚨 חירום מזג אוויר",
+          "title": "אווביה: סערה חזקה מחכה, בתי ספר נסגרים",
+          "body": "אי אווביה בעטוף סערה קשה החל מיום שלישי 13 באוקטובר 2026. מנהל העיר הודיע כי צפויים גבהי גשם משמעותיים, כשבחלקים מזרחיים של הדירוג צפויים למעלה מ-150 ממ. התופעות החזקות ביותר יתרחשו לילה עד צהריים של יום רביעי. למען בטיחות התלמידים, שיעורים ביום רביעי 14 באוקטובר יתקיימו בטלה-דיסקציה.",
+          "locations": [
+            "Evia",
+            "Magnesia",
+            "Sporades"
+          ],
+          "date": "2026-10-13 04:29",
+          "source": "evianews.com",
+          "url": "https://evianews.com/evvoia-erchetai-megali-kakokairia-kleinoun-scholeia/",
+          "image": "https://evianews.com/wp-content/uploads/2021/04/kakokairia.webp"
+        }
+      ]
+    },
+    {
+      "type": "infra",
+      "label": "🌉 תשתיות",
+      "items": [
+        {
+          "cat": "infra",
+          "label": "🌉 תשתיות",
+          "title": "גשר קרס באיי בגלל סערה בעוביה",
+          "body": "גשר עזר התמוטט בשכונת קיפריסי בעוביה, יוון, בעקבות מזג אוויר קשה עם גשמים עזים. ההתמוטטות התרחשה בשטח שנקרא \"פתמנוס\" בעיר דירפיון מסאפיון. ראש העירייה התחסן בשטח כל הלילה, כשהוא נתקע בקיפריסי בגלל סגירת הדרכים. הנזקים לתשתיות וכבישים בעיי בעוביה ממשיכים להצטבר בעקבות הסערה.",
+          "locations": [
+            "עוביה",
+            "קיפריסי",
+            "דירפיון מסאפיון",
+            "פתמנוס"
+          ],
+          "date": "2026-10-14 04:32",
+          "source": "evima.gr",
+          "url": "https://www.evima.gr/eidiseis-evvoia/katerrefse-gefyra-apo-tin-kakokairia-stin-evvoia/",
+          "image": "https://www.evima.gr/wp-content/uploads/2026/10/img_0522.jpeg"
+        },
+        {
+          "cat": "infra",
+          "label": "🛣️ תשתיות",
+          "title": "נהר קרואס הציף דרכים בצפון אוביה",
+          "body": "סערה קשה פוגעת בצפון אי אוביה ברומא, והנהר קרואס הציף והצפה. דרך המחברת בין מנטודי לפרוקופי נסגרה בנקודה קנטא עקב הצפות, וכן דרך נוספת באזור פורטארה. הגשם הכבד יצר תנאים מסוכנים למתנהגים ומעוכב את התנועה בכל האזור.",
+          "locations": [
+            "Evia",
+            "Mantoudि",
+            "Prokopi",
+            "Kanta",
+            "Portara"
+          ],
+          "date": "2026-10-14 03:58",
+          "source": "evima.gr",
+          "url": "https://www.evima.gr/eidiseis-evvoia/sto-eleos-tis-kakokairias-i-evvoia-ypercheilise-o-potamos-kireas-poioi-dromoi-echoun-kleisei/",
+          "image": "https://www.evima.gr/wp-content/uploads/2026/10/att.rprt6h49aik8ujia4upiiwxbb8lvnukpfrxrtxhf-9q.jpeg"
+        },
+        {
+          "cat": "infra",
+          "label": "🛣️ תשתיות",
+          "title": "כביש קרס בעווביה עקב מזג אוויר קשה",
+          "body": "בעקבות מזג אוויר קשה חלה קריסה בכביש בגשר קליביטי באזור אי עווביה. עיריית דירפיון-מסאפיון הודיעה על הפסקת זרימת תנועה דו-כיוונית בכביש העירוני מפסחנה לסטאורו. ההפסקה זו הותקנה כדי לשמור על בטיחות הנהגים עד סיום עבודות התיקון הדרושות. נציגי הרשות המקומית עוסקים כעת בשיקום הנזקים.",
+          "locations": [
+            "עווביה",
+            "גשר קליביטי",
+            "פסחנה",
+            "סטאורו",
+            "דירפיון-מסאפיון"
+          ],
+          "date": "2026-10-13 16:00",
+          "source": "evima.gr",
+          "url": "https://www.evima.gr/eidiseis-evvoia/sovara-provlimata-apo-tin-kakokairia-stin-evvoia-epese-dromos-vinteo/",
+          "image": "https://www.evima.gr/wp-content/uploads/2026/10/img_0494.jpeg"
+        },
+        {
+          "cat": "infra",
+          "label": "🚗 תחבורה ובטיחות דרכים",
+          "title": "קוד הדרכים החדש: עלייה בקנסות והחמרת עונשים",
+          "body": "אושר בקריאה שלישית בכנסת הקוד החדש של דרכים התעבורה עם שינויים משמעותיים בעונשים. הקוד החדש מחמיר קנסות על הפרות כמו שימוש בטלפון נייד וחריגה מהירות מותרת. משטרת התעבורה מאתנה בדיקות אלכוטסטים ובקרות בתקופת החגים. הודעות על עדכוני דמי רישום לשנת 2026 צפויות להפיץ בסוף אוקטובר ותחילת נובמבר.",
+          "locations": [
+            "אביה",
+            "יוון"
+          ],
+          "date": "",
+          "source": "eviathema.gr",
+          "url": "https://eviathema.gr/auto-moto/",
+          "image": "https://eviathema.gr/wp-content/uploads/2024/04/eviathema.jpg"
+        }
+      ]
+    },
+    {
+      "type": "environment",
+      "label": "🌊 מזג אוויר וסביבה",
+      "items": [
+        {
+          "cat": "environment",
+          "label": "🌊 מזג אוויר וסביבה",
+          "title": "הוריקן באיי יוביה: נהר הציפה וקטע את האי לשניים",
+          "body": "אי יוביה ביוון סובל מגלי קור חמורים שגרמו להצפות קטסטרופליות. נהר קירה התחיל להציף והפסיק תנועת כלים בציר הדרך הראשי לכיוון חלקידה. לפי דברי ראש העירייה גיורגוס צאפורניוטיס, התנועה מועברת זמנית דרך מטוכיו ודפנוסה. זו חזרה קשה של השפעות מזג אוויר קשות על האזור הצפוני של האי.",
+          "locations": [
+            "יוביה",
+            "חלקידה",
+            "נהר קירה",
+            "מטוכיו",
+            "דפנוסה"
+          ],
+          "date": "2026-10-14 06:00",
+          "source": "evima.gr",
+          "url": "https://www.evima.gr/eidiseis-evvoia/dramatikes-ores-stin-evvoia-kopike-sta-dyo-to-nisi-ypercheilise-potamos-pos-ginetai-i-kykloforia/",
+          "image": "https://www.evima.gr/wp-content/uploads/2026/10/img_0543.jpeg"
+        },
+        {
+          "cat": "environment",
+          "label": "🌦️ מזג אוויר",
+          "title": "שוק אולונריו באווה נסגר מוקדם בגלל סערה",
+          "body": "שוק אולונריו באי אווה ביוון סגר מיום שלישי 13 באוקטובר 2026, יום אחד לפני המתוכנן. ההחלטה התקבלה על ידי ועדת השוק בשל התחזוקות למזג אוויר קשה הצפוי בשעות הקרובות, כולל סערות חזקות וריחות חזקים מאוד. הועדה הניחה עדיפות לבטיחות המציגים, הספקים והמבקרים, וקראה לעובדים לבצע פעולות סגירה דחופות ולתושבים להיות זהירים בנסיעותיהם.",
+          "locations": [
+            "אולונריו",
+            "אווה",
+            "יוון"
+          ],
+          "date": "2026-10-13 18:21",
+          "source": "evianews.com",
+          "url": "https://evianews.com/louketo-sto-pazari-avlonariou-o-kairos-to-ekleise-noritera/",
+          "image": "https://evianews.com/wp-content/uploads/2026/09/pazari.jpg"
+        }
+      ]
+    },
+    {
+      "type": "crime",
+      "label": "🚨 פשע וביטחון",
+      "items": [
+        {
+          "cat": "crime",
+          "label": "🚨 פשע וביטחון",
+          "title": "חקירות משטרתיות נגד ארגונים פליליים באיי יוון",
+          "body": "הרשויות בחשפו תוכנית פלילית מסודרת המכוונת לגברים בגיל מתקדם. במקביל, סכלה משטרה פעילות של ארגון פלילי הממשיך בהברחת דלק בכיכר הציקלאדים. בעד כך נעצר נשיא מפלגה פוליטית בחקירה לעבירות כלכליות. כמו כן דווח על אלימות במשפחה בהראקליון וצעדים במציאת נמלט מחוקק.",
+          "locations": [
+            "אי הציקלאדים",
+            "הראקליון",
+            "מנידיון",
+            "קרט"
+          ],
+          "date": "",
+          "source": "eviathema.gr",
+          "url": "https://eviathema.gr/astynomika/",
+          "image": "https://eviathema.gr/wp-content/uploads/2024/04/eviathema.jpg"
+        }
+      ]
+    },
+    {
+      "type": "economy",
+      "label": "💼 כלכלה וטכנולוגיה",
+      "items": [
+        {
+          "cat": "economy",
+          "label": "💼 כלכלה וטכנולוגיה",
+          "title": "טכנולוגיה וקניות דיגיטליות משנים את כלכלת אוביה",
+          "body": "באי אוביה באונה, חיי הסטודנטים והעסקים משתנים בעקבות התפתחות טכנולוגית מהירה. פעולות כמו פתיחת חשבון בנק, הזמנות מקוונות והרשמה לפלטפורמות ציבוריות מושלמות כעת בדקות ספורות. שיווק דיגיטלי התפתח בקצב מעורפל, כשהשפעות בתוקף כבר לא מספיקות ללבדן להנעת מכירות. האקלים הכלכלי באי נתפס כערוב, ואתר הדיווחים עוסק בחששות בדבר נתונים אישיים בעידן דיגיטלי.",
+          "locations": [
+            "Evia",
+            "אוביה"
+          ],
+          "date": "",
+          "source": "eviathema.gr",
+          "url": "https://eviathema.gr/technologia/",
+          "image": "https://eviathema.gr/wp-content/uploads/2024/04/eviathema.jpg"
+        }
+      ]
+    },
+    {
+      "type": "politics",
+      "label": "🗳️ פוליטיקה",
+      "items": [
+        {
+          "cat": "politics",
+          "label": "🗳️ פוליטיקה",
+          "title": "ראיונות עם מועמדים לבחירות באי אוביה",
+          "body": "באתר eviathema.gr פורסמו סדרת ראיונות עם מועמדים לתפקידים ציבוריים בחברה הסטראדית באיזור אוביה. בין המעורים: קוסטס מרקופולוס המועמד למושל, יועל רביולוס דמר של דήμο קריסטו, וכן מועמדי בחירות לכנסת מהציבור וממפלגת Νέα Δημοκρατία. הראיונות נערכו על ידי העיתונאי סוטיריס בארסקיס.",
+          "locations": [
+            "Evia",
+            "Karystos",
+            "Sterea Ellada"
+          ],
+          "date": "",
+          "source": "eviathema.gr",
+          "url": "https://eviathema.gr/synenteyxeis/",
+          "image": "https://eviathema.gr/wp-content/uploads/2024/04/eviathema.jpg"
+        }
+      ]
+    },
+    {
+      "type": "other",
+      "label": "🏷️ כללי",
+      "items": [
+        {
+          "cat": "other",
+          "label": "🏷️ כללי",
+          "title": "בדיקה של קטגוריית חדשות מאי אתיא",
+          "body": "הדף מציג בחינה טכנית של קטגוריות חדשות באתר eviathema.gr המתמקד בדיווחים מעיל יוון. לא קיים גוף תוכן זמין לניתוח. המידע המוצג מוגבל ודורש עדכון.",
+          "locations": [
+            "Evia",
+            "Greece"
+          ],
+          "date": "",
+          "source": "eviathema.gr",
+          "url": "https://eviathema.gr/evoia/feed/",
+          "image": ""
+        },
+        {
+          "cat": "other",
+          "label": "📰 חדשות מקומיות",
+          "title": "אתר EviaNews מציע כל חדשות האי יומיום",
+          "body": "אתר EviaNews מספק כיסוי חדשותי יומי מלא של אי אווביה ביוון. הפלטפורמה מציעה לקוראים גישה ראשונה לחדשות חשובות ולעדכונים עדכניים מכל רחבי האי. האתר משמש כמקור מרכזי למידע מקומי ודיווחים עלילתיים מהקהילה.",
+          "locations": [
+            "Evia",
+            "Euboea"
+          ],
+          "date": "2026-10-14 10:56",
+          "source": "evianews.com",
+          "url": "https://evianews.com/%ce%bf%ce%bb%ce%b5%cf%83-%ce%bf%ce%b9-%ce%b5%ce%b9%ce%b4%ce%b7%cf%83%ce%b5%ce%b9%cf%83/",
+          "image": "https://evianews.com/evianews_og_yellow.webp"
+        },
+        {
+          "cat": "other",
+          "label": "🗞️ חדשות כללי",
+          "title": "כל החדשות מצפון אובואה במקום אחד",
+          "body": "אתר evianews.com מציע סיקור מלא של כל התוכן החדשותי בנוגע לצפון אובואה. הפלטפורמה מאגדת את כל הידיעות והעדכונים העדכניים מהאזור בממשק נוח וקל לשימוש. קוראים יכולים להישאר מעודכנים בחדשות המקומיות של צפון אובואה בלחיצה אחת.",
+          "locations": [
+            "צפון אובואה",
+            "אובואה"
+          ],
+          "date": "2026-10-13 07:29",
+          "source": "evianews.com",
+          "url": "https://evianews.com/news/voria-evia/",
+          "image": "https://evianews.com/evianews_og_yellow.webp"
+        },
+        {
+          "cat": "other",
+          "label": "🏝️ חדשות מקומיות",
+          "title": "עדכונים חדשים מדרום אוביה באתר evianews",
+          "body": "אתר evianews.com מפרסם חדשות ועדכונים שוטפים מאזור דרום אוביה. הקטגוריה משדרת את כל הידיעות והאירועים העדכניים מהאזור. משתמשים יכולים לעקוב אחר חדשות שוטפות בקליק אחד. זהו מקום מרכזי לעדכונים מקומיים מאזור דרום אוביה.",
+          "locations": [
+            "Evia",
+            "Southern Evia"
+          ],
+          "date": "2026-10-13 21:21",
+          "source": "evianews.com",
+          "url": "https://evianews.com/news/notia-evia/",
+          "image": "https://evianews.com/evianews_og_yellow.webp"
+        }
+      ]
+    }
+  ]
+}
